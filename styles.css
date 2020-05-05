@@ -1,0 +1,220 @@
+body, h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0px;
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(240, 78%, 98%);
+}
+/* .top-img{
+    float:right;
+    height: 10%;
+    width: 20%;
+} */
+.bottom-img{
+    height: 10%;
+    width: 25%; 
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header h2{
+    margin-top: 60px ;
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(233, 13%, 49%);
+
+}
+
+.click{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+.click h2{
+    font-size: 15px;
+    color: hsl(233, 13%, 49%);
+    font-weight: 700;
+}
+
+.card-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.card{
+    width: 300px;
+    border-radius: 7px;
+padding: 25px;
+box-sizing: border-box;
+}
+.white{
+    background-color: white;
+   
+}
+
+.white h3{
+text-align: center;
+font-size: 15px;
+color: hsl(233, 13%, 49%);
+font-weight: 700;
+}
+.white h2{
+color:hsl(232, 13%, 33%);
+text-align: center;
+font-size: 50px;
+font-weight: 700;
+margin-top: 0px;
+}
+.white p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(233, 13%, 49%);
+
+}
+
+.horizontal {
+    border-top:  0.5px solid hsl(233, 13%, 49%);
+    width: 100%;
+    margin: 8px 0px;
+}
+
+.horizontal-white {
+    border-top:  0.5px solid white;
+    width: 100%;
+    margin: 8px 0px;
+}
+
+.purple{
+    background: linear-gradient( hsl(236, 72%, 79%) , hsl(237, 63%, 64%)) ;
+    color: white;
+}
+
+.big-card{    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+.big-card h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.big-card h2{
+    text-align: center;
+font-size: 50px;
+font-weight: 700;
+margin-top: 0px;
+}
+.big-card p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.bt-more{
+/* height: 40px; */
+width: 100%;
+padding: 10px 20px;
+box-sizing: border-box;
+border-radius: 5px;
+margin: 20px 0px;
+font-size: 14px;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+}
+.bt-white{
+    border: 0.8px solid hsl(236, 72%, 79%);
+    background-color:white;
+    color: hsl(236, 72%, 79%);
+}
+.bt-white:hover{
+background-color: hsl(237, 63%, 64%);
+color: white;
+cursor: pointer;
+}
+.bt-purple{
+border:0.8px solid white;  
+background-color: hsl(237, 63%, 64%);
+color: white;
+}
+.bt-purple:hover{
+background-color:white;
+color: hsl(237, 63%, 64%);
+cursor: pointer;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 33px;
+    margin: 3px 25px ;
+    /* margin-left: 30px;
+margin-right: 30px; */
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:hsl(237, 63%, 64%);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color:white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color:hsl(236, 72%, 79%) ;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px hsl(236, 72%, 79%);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
